@@ -1,0 +1,19 @@
+{
+  "name": "md2hl",
+  "version": "1.0.0",
+  "description": "Convert Markdown to HTML with github-markdown-css and highlight.js",
+  "homepage": "https://github.com/matsuhav/md2hl",
+  "license": "MIT",
+  "bin": {
+    "md2hl": "./main.js"
+  },
+  "scripts": {
+    "gen": "node main.js README.md >README.html"
+  },
+  "dependencies": {
+    "github-markdown-css": "^5.1.0",
+    "highlight.js": "^11.6.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-task-lists": "^2.1.1"
+  }
+}
